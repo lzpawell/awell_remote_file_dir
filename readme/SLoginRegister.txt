@@ -1,0 +1,25 @@
+数据传输格式：
+传输一个json包
+{
+"type"://0 for login 1 for register
+"userId":"the user id",
+"password":"the password",
+"nickname":"the nickname"  //if type is register, this para can not be null
+}
+
+
+
+return for login
+a json string as
+{
+"result":{see util.Error}
+"nickname":"the nickname" // if result == no error! this para can not be null
+}
+
+
+return for register
+a json string as
+{
+"result":{see util.Error}
+"nickname":"the nickname" // if result == no error! this para can not be null
+}
