@@ -2,9 +2,11 @@
 传输一个json包
 {
 "type"://0 for login 1 for register
-"userId":"the user id",
-"password":"the password",
-"nickname":"the nickname"  //if type is register, this para can not be null
+"user":{
+	"userId":"the user id",
+	"password":"the password",
+	"nickname":"the nickname"  //if type is register, this para can not be null
+	}
 }
 
 

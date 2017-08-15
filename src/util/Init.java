@@ -13,7 +13,7 @@ public class Init {
 		//首先初始化数据库
 		//然后启动服务
 		SLoginRegister.startService();
-		SFileIO.startService();
+		//SFileIO.startService();
 	}
 	
 	
